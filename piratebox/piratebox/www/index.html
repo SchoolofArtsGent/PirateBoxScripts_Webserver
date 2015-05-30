@@ -5,30 +5,27 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Radius</title>
 		<link rel="stylesheet" href="css/foundation.css" />
+		<link rel="stylesheet" href="css/radius.css" />
 		<script src="js/vendor/modernizr.js"></script>
 	</head>
 	<body>
 
-		<div class="row">
-			<div class="large-12 columns">
-				<nav class="top-bar" data-topbar role="navigation">
-					<ul class="title-area">
-						<li class="name">
-							<h1><a href="#">Radius</a></h1>
-						</li>
-						<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-					</ul>
-					<section class="top-bar-section">
-						<!-- Right Nav Section -->
-						<ul class="right">
-							<li><a href="/" class="current">Home</a></li>
-							<!-- <li><a href="/board/">Forum</a></li> -->
-							<li><a href="/Shared/">Files</a></li>
-						</ul>
-					</section>
-				</nav>
-			</div>
-		</div>
+		<nav class="top-bar" data-topbar role="navigation">
+			<ul class="title-area">
+				<li class="name">
+					<h1><a href="#">Radius</a></h1>
+				</li>
+				<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+			</ul>
+			<section class="top-bar-section">
+				<!-- Right Nav Section -->
+				<ul class="right">
+					<li><a href="/" class="current">Home</a></li>
+					<!-- <li><a href="/board/">Forum</a></li> -->
+					<li><a href="/Shared/">Files</a></li>
+				</ul>
+			</section>
+		</nav>
 
 		<div class="row">
 			<div class="large-12 columns">
@@ -37,19 +34,16 @@
 		</div>
 
 		<div class="row">
-			<div class="large-12 columns">
+			<div class="large-6 columns">
 				<div id="upload" class="card">
 					<h2>Upload</h2>
 					<iframe width="100%" height="80" src='http://piratebox.lan:8080'>
 						Your browser does not support iframes.. If you want to upload something, follow this <a href='http://piratebox.lan:8080'>Link</a>.
 					</iframe>
-					<h3><a href="/Shared">Browse Files -></a></h3>
+					<h3><a href="/Shared" class="button">Browse Files</a></h3>
 				</div>
 			</div>
-		</div>
-
-		<div class="row">
-			<div class="large-12 columns">
+			<div class="large-6 columns">
 				<div id="chat" class="card">
 					<h2>Chat</h2>
 					<div id="shoutbox" class="shoutbox_content"></div>
