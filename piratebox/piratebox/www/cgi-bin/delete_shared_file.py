@@ -1,9 +1,7 @@
-import cgi
-import cgitb; cgitb.enable() # Optional; for debugging only
-
-print "Content-Type: text/html"
-print ""
-
+import os, cgi
 arguments = cgi.FieldStorage()
-for i in arguments.keys():
- print arguments[i].value
+path = "/opt/piratebox/www/Shared/" + arguments['f'].value
+#print 'deleting ' + path
+os.system('rm "' + path + '"')
+print("Location:/cgi-bin/shared_files.py")
+print # to end the CGI response headers.
