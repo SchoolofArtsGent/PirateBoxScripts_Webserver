@@ -1,10 +1,21 @@
-# PirateBoxScripts with Modifications for running in a Webserver     
+# Modifications for Radius
+
+See https://github.com/SchoolofArtsGent/Pirate-Radius.
+
+Changes from original PirateBox:
+
+* Design based on the Foundation CSS framework (see piratebox/piratebox/www/index.html)
+* Customized file listing (see piratebox/piratebox/www/cgi-bin/shared_files.py)
+* File deletion from webinterface (totally insecure! see piratebox/piratebox/www/cgi-bin/delete_shared_file.py)
+* Shutdown Pi/laptop from webinterface (also totally insecure! see piratebox/piratebox/www/cgi-bin/shutdown.py)
+
+# PirateBoxScripts with Modifications for running in a Webserver
 &copy; 2012-2014 [Matthias Strubel](mailto:matthias.strubel@aod-rpg.de) licenced under GPL-3
 
 ## Maintainers
-* [Matthias Strubel](matthias.strubel@aod-rpg.de)     
+* [Matthias Strubel](matthias.strubel@aod-rpg.de)
 
-Sources for Running PirateBox with Webserver lighttpd     
+Sources for Running PirateBox with Webserver lighttpd
 Contains: Shoutbox, Forum
 
 PirateBox is a collection of scripts / programs that allows you to use your wireless card
@@ -30,10 +41,10 @@ PirateBox scripts can:
 * Optional imageboard
 * Optional Station counter
 * Optional Inihibit starting upload-script
-* Optional Timesave script (for devices without RTC)  - can be found in piratebox/bin/timesave.sh 
+* Optional Timesave script (for devices without RTC)  - can be found in piratebox/bin/timesave.sh
 * Optional Poll for WLAN device until it available (for USB wifi cards)
 
-More information can be found on: http://piratebox.aod-rpg.de     
+More information can be found on: http://piratebox.aod-rpg.de
 Installation-HowTo and current Download-Link: http://piratebox.aod-rpg.de/dokuwiki/doku.php/piratebox_lighttpd
 
 Is supported by [mkPirateBox > v0.5 for OpenWRT Systems](https://github.com/MaStr/mkPirateBox)
