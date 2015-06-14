@@ -1,82 +1,235 @@
 <!doctype html>
+
+
 <html class="no-js" lang="en">
+	
 	<head>
+		
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="css/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="css/favicon.ico" type="image/x-icon">
 		<title>Radius</title>
-		<link rel="stylesheet" href="css/foundation.css" />
+		
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="css/radius.css" />
-		<script src="js/vendor/modernizr.js"></script>
+		<link rel="stylesheet" href="style.css" />
+	
 	</head>
+	
 	<body>
 
-		<nav class="top-bar" data-topbar role="navigation">
-			<ul class="title-area">
-				<li class="name">
-					<h1><a href="#">Radius</a></h1>
-				</li>
-				<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+	<!-- Header -->
+	  <section id="header">
+		
+		<header>
+					
+		  <span class="image avatar"><img src="img/Logo.svg" alt="" /></span>
+					
+			  <p>Ultra-lokaal verkeersbordvrij offline netwerk voor file-sharing, chat en radio</p>
+		
+		</header>
+				
+		<nav id="nav">
+		  
+		  <ul>
+			  
+			  <li><a href="#one" class="active">About</a></li>
+				
+				<li><a href="#two">Code of Conduct</a></li>
+				
+				<li><a href="#three">Upload</a></li>
+				
+				<li><a href="#four">Chat</a></li>
+				
+				<li><a href="#five">Shutdown</a></li>
+						
 			</ul>
-			<section class="top-bar-section">
-				<!-- Right Nav Section -->
-				<ul class="right">
-					<li><a href="/" class="current">Home</a></li>
-					<!-- <li><a href="/board/">Forum</a></li> -->
-					<li><a href="/cgi-bin/shared_files.py">Files</a></li>
-				</ul>
-			</section>
-		</nav>
+				
+	  </nav>
+				
+		</section>
 
-		<div class="row">
-			<div class="large-12 columns">
-				<h1>Welcome to Radius</h1>
-			</div>
-		</div>
 
-		<div class="row">
-			<div class="large-6 columns">
-				<div id="upload" class="card">
-					<h2>Upload</h2>
-					<iframe width="100%" height="80" src='http://piratebox.lan:8080'>
-						Your browser does not support iframes.. If you want to upload something, follow this <a href='http://piratebox.lan:8080'>Link</a>.
-					</iframe>
-					<h3><a href="/cgi-bin/shared_files.py" class="button">Browse Files</a></h3>
-				</div>
-			</div>
-			<div class="large-6 columns">
-				<div id="chat" class="card">
-					<h2>Chat</h2>
-					<div id="shoutbox" class="shoutbox_content"></div>
-					<form method="POST" name="psowrte" id="sb_form" >
-						<div id="shoutbox-input">
-							<input class="nickname" type="text" 	name="name" 	value="Anonymous" placeholder="Nickname">
-							<input class="message" 	type="text" 	name="data" 	placeholder="Message...">
-							<input class="button" 	type="submit" 	name="submit" 	value="Send">
+
+
+		<!-- Wrapper -->
+			
+		<div id="wrapper">
+
+		<!-- Main -->
+					
+		  <div id="main">
+
+			<!-- One -->
+							
+			  <section id="one">
+				
+				  <div class="container">
+					
+					  <header class="major">
+										
+						  <h2>Radius</h2>
+							
+							  <p>Een virtueel offline netwerk / <br>piraat-radiozender</p>
+						
+						</header>
+								
+								<p>Pirate Radius is een reëel/virtueel netwerk op de School of Arts (campus Bijloke) met een ultra-lokale radius van 50m, in en rond het KASKcafe 
+								   en het Marissalgebouw. Pirate Radius is een sociale ruimte voor het delen van digitale bestanden, chatten en het maken en beluisteren van radio. 
+								   Pirate Radius is een open platform dat werkt volgens het verkeersbordvrij-principe. Er is geen reglement. Het werkt anoniem, en is toegankelijk 
+								   voor iedereen.
+								</p>
+								
+					</div>
+				
+				</section>
+
+		  <!-- Two -->
+				
+				<section id="two">
+				  
+				  <div class="container">
+					  
+					  <h3>Code of Conduct</h3>
+						  
+						  <p>Pirate Radius werkt volgens het verkeersbordvrij-principe (open space/shared space). Er is geen reglement en iedereen kan anoniem bijdragen tot en 
+						     genieten van het platform. Er is wel een code
+						  </p>
+									
+							<ul class="alt">
+							
+							  <li class="fa-code">Whoever comes is the right people</li>
+								
+								<li class="fa-cubes">Whatever happens is the only thing that could have</li>
+								
+								<li class="fa-book">Whenever it starts is the right time</li>
+								
+								<li class="fa-coffee">When it’s over, it’s over</li>
+								
+							</ul>
+					
+					</div>
+				
+				</section>
+
+			<!-- Three -->
+			
+				<section id="three">
+					
+					<div class="container">
+					
+					<div id="upload" class="card">
+					  
+					  <h3>Upload</h3>
+						
+						  <iframe width="100%" height="80" src='http://piratebox.lan:8080'>
+							Your browser does not support iframes.. If you want to upload something, follow this <a href='http://piratebox.lan:8080'>Link</a>.
+						  </iframe>
+						
+						<h4><a href="/cgi-bin/shared_files.py" class="button alt small">Browse Files</a></h4>
+					
+					</div>
+					
+					</div>
+					
+				</section>
+
+			<!-- Four -->
+				
+				<section id="four">
+				
+				  <div class="container">
+					
+					<div id="chat" class="card">
+					  
+					  <h3>Chat</h3>
+						
+						<div id="shoutbox" class="shoutbox_content"></div>
+						
+						  <form method="POST" name="psowrte" id="sb_form" >
+							
+							  <div id="shoutbox-input">
+								  
+								  <input class="nickname" type="text" 	name="name" 	value="Anonymous" placeholder="Nickname">
+									
+									<input class="message" 	type="text" 	name="data" 	placeholder="Message...">
+									
+									<input class="button" 	type="submit" 	name="submit" 	value="Send">
+								
+								</div>
+											
+								<div class="colors">
+									
+								  <div id="shoutbox-options">
+								
+								    <div class="colors">
+											
+											<h1>Text Color:</h1>
+												
+										</div>
+												
+												<label for="def" 	class="bg-black">	<input name="color" type="radio" value="def" 	id="def" checked>Default</label>
+												
+												<label for="blue" 	class="bg-blue">	<input name="color" type="radio" value="blue" 	id="blue"		>Blue</label>
+												
+												<label for="green" 	class="bg-green">	<input name="color" type="radio" value="green" 	id="green"		>Green</label>
+												
+												<label for="orange" class="bg-orange">	<input name="color" type="radio" value="orange" id="orange"		>Orange</label>
+												
+												<label for="red" 	class="bg-red">		<input name="color" type="radio" value="red" 	id="red"		>Red</label>
+									</div>
+								
+								</div>
+							
+							</form>
+						
 						</div>
-						<div id="shoutbox-options">
-							<h3>Text Color:</h3>
-							<label for="def" 	class="bg-black">	<input name="color" type="radio" value="def" 	id="def" checked>Default</label>
-							<label for="blue" 	class="bg-blue">	<input name="color" type="radio" value="blue" 	id="blue"		>Blue</label>
-							<label for="green" 	class="bg-green">	<input name="color" type="radio" value="green" 	id="green"		>Green</label>
-							<label for="orange" class="bg-orange">	<input name="color" type="radio" value="orange" id="orange"		>Orange</label>
-							<label for="red" 	class="bg-red">		<input name="color" type="radio" value="red" 	id="red"		>Red</label>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
+									
+					</div>
+							
+				</section>
+							
+			<!-- Five -->
+				
+				<section id="five">
+				  
+				  <div class="container">
+								
+					  <a href="/cgi-bin/shutdown.py" class="button tiny alert" onclick="return confirm('Are you sure?')">Shutdown Radius</a>
+									
+					</div>
+				
+				</section>
 
-		<div class="row">
-			<div class="large-12 columns">
-				<a href="/cgi-bin/shutdown.py" class="button tiny alert" onclick="return confirm('Are you sure?')">Shutdown Radius</a>
-			</div>
-		</div>
+      <!-- Footer -->
+				
+				<section id="footer">
+					
+					<div class="container">
+						
+						<ul class="copyright">
+							
+							<li>&copy; Creative Commons</li>
+						
+						</ul>
+					
+					</div>
+				
+				</section>
 
-		<script src="js/vendor/jquery.js"></script>
-		<script src="js/foundation.min.js"></script>
-		<script src="scripts.js"></script>
-		<script>
-			$(document).foundation();
-		</script>
+			</div>
+
+		<!-- Scripts -->
+		
+			<script src="js/jquery.min.js"></script>
+			<script src="js/jquery.scrollzer.min.js"></script>
+			<script src="js/jquery.scrolly.min.js"></script>
+			<script src="js/skel.min.js"></script>
+			<script src="js/util.js"></script>
+			<!--[if lte IE 8]><script src="js/ie/respond.min.js"></script><![endif]-->
+			<script src="js/main.js"></script>
+
 	</body>
+
 </html>
